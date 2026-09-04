@@ -7,7 +7,7 @@ about:
   head: 851a214
   archived: false
   latestVersion: v2.15.1
-  collectedAt: 2026-09-04T19:26:17Z
+  collectedAt: 2026-09-04T21:12:31Z
 timeline:
   created: 2009-04-23
   lastCommit: 2026-07-09
@@ -85,6 +85,84 @@ total:
   openIssue: 80
   commit: 1140
 ---
+path: /home/runner/.x-repo/github.com/akheron/jansson
+collectedAt: 2026-09-04T21:12:32Z
+loc:
+  C:
+    code: 13666
+    comments: 1049
+    blanks: 2229
+    files: 36
+  ReStructuredText:
+    code: 2141
+    comments: 0
+    blanks: 922
+    files: 10
+  CHeader:
+    code: 770
+    comments: 360
+    blanks: 176
+    files: 9
+  CMake:
+    code: 670
+    comments: 455
+    blanks: 184
+    files: 6
+  Sh:
+    code: 327
+    comments: 71
+    blanks: 87
+    files: 11
+  Cpp:
+    code: 283
+    comments: 64
+    blanks: 57
+    files: 4
+  Automake:
+    code: 144
+    comments: 2
+    blanks: 26
+    files: 8
+  ModuleDef:
+    code: 84
+    comments: 0
+    blanks: 1
+    files: 1
+  Python:
+    code: 81
+    comments: 136
+    blanks: 72
+    files: 2
+  Autoconf:
+    code: 40
+    comments: 12
+    blanks: 9
+    files: 3
+  Bash:
+    code: 24
+    comments: 3
+    blanks: 6
+    files: 2
+  Makefile:
+    code: 24
+    comments: 46
+    blanks: 9
+    files: 2
+  Yaml:
+    code: 17
+    comments: 0
+    blanks: 1
+    files: 1
+  Markdown:
+    code: 0
+    comments: 7
+    blanks: 5
+    files: 2
+total:
+  code: 18271
+  comments: 2205
+  blanks: 3784
+  files: 97
 ---
 date: "2026-08-24"
 repo:
