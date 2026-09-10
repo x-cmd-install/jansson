@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.15.1"
   latestRelease: "v2.15.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:57:21Z
+  collectedAt: 2026-09-10T22:58:56Z
 timeline:
   created: 2009-04-23
   lastCommit: 2026-07-09
@@ -88,7 +88,7 @@ total:
   commit: 1140
 ---
 path: /home/runner/.x-repo/github.com/akheron/jansson
-collectedAt: 2026-09-10T20:57:22Z
+collectedAt: 2026-09-10T22:58:58Z
 loc:
   C:
     code: 13666
