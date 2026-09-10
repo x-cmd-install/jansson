@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 488779,
       "digest": "sha256:f9aa4b3ec8496fee69db94f06f3d76fd4a26b012ee9bf1e917078c2cd2841881",
-      "download_count": 5983,
+      "download_count": 6012,
       "created_at": "2026-07-01T18:48:35Z",
       "updated_at": "2026-07-01T18:48:36Z",
       "browser_download_url": "https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.bz2"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 623952,
       "digest": "sha256:0c7114dc0b2d22a670724a1f95922029d7077c19dbf79a584cb8084d2f267f2f",
-      "download_count": 13464,
+      "download_count": 13648,
       "created_at": "2026-07-01T18:48:36Z",
       "updated_at": "2026-07-01T18:48:37Z",
       "browser_download_url": "https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 870,
       "digest": "sha256:0565dadd1dec2b4e4b0025477ad929a5711795fc6ad6369e9f81cf4253d7f3d2",
-      "download_count": 105,
+      "download_count": 106,
       "created_at": "2026-07-01T18:48:37Z",
       "updated_at": "2026-07-01T18:48:37Z",
       "browser_download_url": "https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.gz.asc"
