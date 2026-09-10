@@ -4,7 +4,7 @@
 
 C library for encoding, decoding and manipulating JSON data
 
-![jansson](https://repo.x-cmd.io/jansson.svg)
+![jansson](https://repo.x-cmd.io/jansson.svg?lang=zh)
 
 ## 安装
 
@@ -23,7 +23,15 @@ x install jansson
 - **最新版本**: `v2.15.1` (2026-07-01)
 - **最近提交**: 2026-07-09
 - **Release 含资产**: 4 个
-- **发布时间**: 2026-07-01T18:52:59Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [jansson-2.15.1.tar.bz2](https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.bz2) | 477.3 KiB | `other` |
+| [jansson-2.15.1.tar.bz2.asc](https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.bz2.asc) | 870 B | `other` |
+| [jansson-2.15.1.tar.gz](https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.gz) | 609.3 KiB | `native/unknown` |
+| [jansson-2.15.1.tar.gz.asc](https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.gz.asc) | 870 B | `other` |
 
 ## 流行度
 
@@ -72,4 +80,4 @@ jansson 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:38:30Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:30:55Z._

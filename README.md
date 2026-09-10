@@ -23,7 +23,15 @@ x install jansson
 - **Latest**: `v2.15.1` (2026-07-01)
 - **Last commit**: 2026-07-09
 - **Assets in release**: 4
-- **Published**: 2026-07-01T18:52:59Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [jansson-2.15.1.tar.bz2](https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.bz2) | 477.3 KiB | `other` |
+| [jansson-2.15.1.tar.bz2.asc](https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.bz2.asc) | 870 B | `other` |
+| [jansson-2.15.1.tar.gz](https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.gz) | 609.3 KiB | `native/unknown` |
+| [jansson-2.15.1.tar.gz.asc](https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.gz.asc) | 870 B | `other` |
 
 ## Popularity
 
@@ -68,8 +76,8 @@ Lowest-scoring checks:
 Install metadata for jansson lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `jansson` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/jansson.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/jansson.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:38:29Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:30:55Z._
