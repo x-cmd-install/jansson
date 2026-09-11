@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.15.1"
   latestRelease: "v2.15.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T04:39:06Z
+  collectedAt: 2026-09-11T20:22:33Z
 timeline:
   created: 2009-04-23
   lastCommit: 2026-07-09
@@ -20,7 +20,7 @@ popularity:
   fork: 852
   release: 34
   contributor: 88
-  pullRequest: 334
+  pullRequest: 337
   issue: 416
 language:
   C: 505409
@@ -35,7 +35,7 @@ recent:
     since: 2026-08-12
     release: 0
     mergedPR: 0
-    openPR: 1
+    openPR: 4
     closedIssue: 0
     openIssue: 1
     commit: 0
@@ -43,7 +43,7 @@ recent:
     since: 2026-07-13
     release: 0
     mergedPR: 0
-    openPR: 1
+    openPR: 4
     closedIssue: 0
     openIssue: 3
     commit: 0
@@ -51,44 +51,44 @@ recent:
     since: 2026-06-13
     release: 1
     mergedPR: 4
-    openPR: 2
+    openPR: 5
     closedIssue: 2
     openIssue: 4
-    commit: 6
+    commit: 0
   last180d:
     since: 2026-03-15
     release: 1
     mergedPR: 10
-    openPR: 5
+    openPR: 8
     closedIssue: 3
     openIssue: 5
-    commit: 16
+    commit: 0
   last360d:
     since: 2025-09-16
     release: 2
     mergedPR: 13
-    openPR: 6
+    openPR: 9
     closedIssue: 6
     openIssue: 5
-    commit: 21
+    commit: 0
   last720d:
     since: 2024-09-21
     release: 3
     mergedPR: 20
-    openPR: 9
+    openPR: 12
     closedIssue: 9
     openIssue: 9
     commit: 63
 total:
   release: 34
   mergedPR: 183
-  openPR: 49
+  openPR: 52
   closedIssue: 336
   openIssue: 80
   commit: 1140
 ---
 path: /home/runner/.x-repo/github.com/akheron/jansson
-collectedAt: 2026-09-11T04:39:07Z
+collectedAt: 2026-09-11T20:22:34Z
 loc:
   C:
     code: 13666
