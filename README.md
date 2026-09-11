@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 183 · **Open PRs**: 49 · **Closed issues**: 336 · **Open issues**: 80 · **Commits**: 1140
+- **Releases**: 34 · **Merged PRs**: 183 · **Open PRs**: 52 · **Closed issues**: 336 · **Open issues**: 80 · **Commits**: 1140
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-07-13 | 0 | 0 | 1 | 0 | 3 | 0 |
-| 90d | 2026-06-13 | 1 | 4 | 2 | 2 | 4 | 6 |
-| last180d | 2026-03-15 | 1 | 10 | 5 | 3 | 5 | 16 |
-| 360d | 2025-09-16 | 2 | 13 | 6 | 6 | 5 | 21 |
-| last720d | 2024-09-21 | 3 | 20 | 9 | 9 | 9 | 63 |
+| 30d | 2026-08-12 | 0 | 0 | 4 | 0 | 1 | 0 |
+| last60d | 2026-07-13 | 0 | 0 | 4 | 0 | 3 | 0 |
+| 90d | 2026-06-13 | 1 | 4 | 5 | 2 | 4 | 0 |
+| last180d | 2026-03-15 | 1 | 10 | 8 | 3 | 5 | 0 |
+| 360d | 2025-09-16 | 2 | 13 | 9 | 6 | 5 | 0 |
+| last720d | 2024-09-21 | 3 | 20 | 12 | 9 | 9 | 63 |
 
 ## Release assets
 
@@ -102,4 +102,4 @@ Install metadata for jansson lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T04:39:16Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:22:38Z._
