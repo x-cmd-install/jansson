@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 0 | 0 | 5 | 0 | 3 | 0 |
-| last60d | 2026-07-17 | 0 | 0 | 5 | 0 | 4 | 0 |
-| 90d | 2026-06-17 | 1 | 4 | 6 | 1 | 6 | 6 |
-| last180d | 2026-03-19 | 1 | 10 | 9 | 3 | 7 | 15 |
-| 360d | 2025-09-20 | 2 | 13 | 10 | 6 | 7 | 21 |
-| last720d | 2024-09-25 | 3 | 20 | 12 | 9 | 10 | 63 |
+| 30d | 2026-08-17 | 0 | 0 | 5 | 0 | 3 | 0 |
+| last60d | 2026-07-18 | 0 | 0 | 5 | 0 | 4 | 0 |
+| 90d | 2026-06-18 | 1 | 4 | 6 | 1 | 6 | 6 |
+| last180d | 2026-03-20 | 1 | 10 | 9 | 3 | 7 | 15 |
+| 360d | 2025-09-21 | 2 | 13 | 10 | 6 | 7 | 21 |
+| last720d | 2024-09-26 | 3 | 20 | 11 | 9 | 10 | 63 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for jansson lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T05:03:01Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T04:47:07Z._
