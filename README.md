@@ -26,7 +26,7 @@ Total: **18,271** lines of code across **72** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6.8 / 10**
+Overall score: **6.4 / 10**
 
 Lowest-scoring checks:
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 0 | 5 | 0 | 2 | 0 |
-| last60d | 2026-07-30 | 0 | 0 | 5 | 0 | 4 | 0 |
-| 90d | 2026-06-30 | 1 | 2 | 6 | 1 | 6 | 2 |
-| last180d | 2026-04-01 | 1 | 9 | 7 | 2 | 7 | 15 |
-| 360d | 2025-10-03 | 2 | 12 | 10 | 6 | 7 | 20 |
-| last720d | 2024-10-08 | 3 | 20 | 11 | 9 | 10 | 63 |
+| 30d | 2026-08-30 | 0 | 0 | 5 | 0 | 2 | 0 |
+| last60d | 2026-07-31 | 0 | 0 | 5 | 0 | 4 | 0 |
+| 90d | 2026-07-01 | 1 | 1 | 6 | 1 | 6 | 2 |
+| last180d | 2026-04-02 | 1 | 9 | 7 | 2 | 7 | 15 |
+| 360d | 2025-10-04 | 2 | 12 | 10 | 6 | 7 | 20 |
+| last720d | 2024-10-09 | 3 | 20 | 11 | 9 | 10 | 63 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for jansson lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T05:26:51Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T05:52:54Z._
