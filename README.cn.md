@@ -58,12 +58,12 @@ x install jansson
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 7 | 0 | 1 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 12 | 0 | 4 | 0 |
-| 90d | 2026-07-24 | 0 | 0 | 12 | 0 | 5 | 0 |
-| last180d | 2026-04-25 | 1 | 9 | 13 | 2 | 8 | 15 |
-| 360d | 2025-10-27 | 2 | 12 | 17 | 6 | 8 | 20 |
-| last720d | 2024-11-01 | 3 | 20 | 17 | 9 | 11 | 63 |
+| 30d | 2026-09-23 | 0 | 0 | 7 | 0 | 1 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 12 | 0 | 3 | 0 |
+| 90d | 2026-07-25 | 0 | 0 | 12 | 0 | 5 | 0 |
+| last180d | 2026-04-26 | 1 | 9 | 13 | 2 | 8 | 15 |
+| 360d | 2025-10-28 | 2 | 12 | 17 | 6 | 8 | 20 |
+| last720d | 2024-11-02 | 3 | 20 | 17 | 9 | 11 | 63 |
 
 ## Release 资产
 
@@ -74,6 +74,25 @@ x install jansson
 | [jansson-2.15.1.tar.gz](https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.gz) | 609.3 KiB | `native/unknown` |
 | [jansson-2.15.1.tar.gz.asc](https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.gz.asc) | 870 B | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/jansson) 上共有 **231** 个发行版报告此项目。**60** 个 ✅ 已是最新上游版本，**155** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2.15.1` | ✅ latest |
+| Debian 14 | `2.15.1` | ✅ latest |
+| Debian 13 | `2.14` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.14` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.14` | ⚠️ outdated |
+| Arch | `2.15.1` | ✅ latest |
+| Homebrew | `2.15.1` | ✅ latest |
+| Fedora rawhide | `2.14` | ⚠️ outdated |
+| Nix unstable | `2.15.0` | ⚠️ outdated |
+| Void | `2.15.0` | ⚠️ outdated |
+| Alpine edge | `2.15.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `2.15.1` | ✅ latest |
+
 ## 改进这些数据
 
 jansson 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `jansson` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -83,4 +102,4 @@ jansson 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:48:37Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:46:42Z._

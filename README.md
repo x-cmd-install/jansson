@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 7 | 0 | 1 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 12 | 0 | 4 | 0 |
-| 90d | 2026-07-24 | 0 | 0 | 12 | 0 | 5 | 0 |
-| last180d | 2026-04-25 | 1 | 9 | 13 | 2 | 8 | 15 |
-| 360d | 2025-10-27 | 2 | 12 | 17 | 6 | 8 | 20 |
-| last720d | 2024-11-01 | 3 | 20 | 17 | 9 | 11 | 63 |
+| 30d | 2026-09-23 | 0 | 0 | 7 | 0 | 1 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 12 | 0 | 3 | 0 |
+| 90d | 2026-07-25 | 0 | 0 | 12 | 0 | 5 | 0 |
+| last180d | 2026-04-26 | 1 | 9 | 13 | 2 | 8 | 15 |
+| 360d | 2025-10-28 | 2 | 12 | 17 | 6 | 8 | 20 |
+| last720d | 2024-11-02 | 3 | 20 | 17 | 9 | 11 | 63 |
 
 ## Release assets
 
@@ -74,6 +74,25 @@ Lowest-scoring checks:
 | [jansson-2.15.1.tar.gz](https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.gz) | 609.3 KiB | `native/unknown` |
 | [jansson-2.15.1.tar.gz.asc](https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.gz.asc) | 870 B | `other` |
 
+## Distribution status
+
+Reported by **231** distros on [repology.org](https://repology.org/project/jansson). **60** are ✅ on the latest upstream release, **155** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2.15.1` | ✅ latest |
+| Debian 14 | `2.15.1` | ✅ latest |
+| Debian 13 | `2.14` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.14` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.14` | ⚠️ outdated |
+| Arch | `2.15.1` | ✅ latest |
+| Homebrew | `2.15.1` | ✅ latest |
+| Fedora rawhide | `2.14` | ⚠️ outdated |
+| Nix unstable | `2.15.0` | ⚠️ outdated |
+| Void | `2.15.0` | ⚠️ outdated |
+| Alpine edge | `2.15.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `2.15.1` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for jansson lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `jansson` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -83,4 +102,4 @@ Install metadata for jansson lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:48:37Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:46:42Z._
