@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,377 · **Forks**: 863 · **Open issues**: 417 · **Contributors**: 88
+- **Stars**: 3,378 · **Forks**: 863 · **Open issues**: 417 · **Contributors**: 88
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 0 | 7 | 0 | 1 | 0 |
-| last60d | 2026-09-12 | 0 | 0 | 11 | 0 | 3 | 0 |
-| 90d | 2026-08-13 | 0 | 0 | 16 | 0 | 4 | 0 |
-| last180d | 2026-05-15 | 1 | 9 | 17 | 2 | 7 | 15 |
-| 360d | 2025-11-16 | 2 | 11 | 21 | 6 | 8 | 20 |
-| last720d | 2024-11-21 | 3 | 20 | 21 | 9 | 11 | 63 |
+| 30d | 2026-10-13 | 0 | 0 | 7 | 0 | 1 | 0 |
+| last60d | 2026-09-13 | 0 | 0 | 11 | 0 | 3 | 0 |
+| 90d | 2026-08-14 | 0 | 0 | 16 | 0 | 4 | 0 |
+| last180d | 2026-05-16 | 1 | 9 | 17 | 2 | 7 | 15 |
+| 360d | 2025-11-17 | 2 | 11 | 21 | 6 | 8 | 20 |
+| last720d | 2024-11-22 | 3 | 20 | 21 | 9 | 11 | 63 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **232** distros on [repology.org](https://repology.org/project/jansson). **65** are ✅ on the latest upstream release, **151** are ⚠️ on an older version.
+Reported by **231** distros on [repology.org](https://repology.org/project/jansson). **66** are ✅ on the latest upstream release, **149** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -88,7 +88,7 @@ Reported by **232** distros on [repology.org](https://repology.org/project/janss
 | Arch | `2.15.1` | ✅ latest |
 | Homebrew | `2.15.1` | ✅ latest |
 | Fedora rawhide | `2.14` | ⚠️ outdated |
-| Nix unstable | `2.15.0` | ⚠️ outdated |
+| Nix unstable | `2.15.1` | ✅ latest |
 | Void | `2.15.0` | ⚠️ outdated |
 | Alpine edge | `2.15.1` | ✅ latest |
 | openSUSE Tumbleweed | `2.15.1` | ✅ latest |
@@ -102,4 +102,4 @@ Install metadata for jansson lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T06:07:45Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T07:19:38Z._
