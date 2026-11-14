@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,377 · **Forks**: 862 · **Open issues**: 417 · **Contributors**: 88
+- **Stars**: 3,377 · **Forks**: 862 · **Open issues**: 418 · **Contributors**: 88
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 183 · **Open PRs**: 63 · **Closed issues**: 334 · **Open issues**: 83 · **Commits**: 1140
+- **Releases**: 34 · **Merged PRs**: 183 · **Open PRs**: 63 · **Closed issues**: 335 · **Open issues**: 83 · **Commits**: 1140
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 0 | 0 | 7 | 0 | 1 | 0 |
-| last60d | 2026-09-14 | 0 | 0 | 11 | 0 | 1 | 0 |
-| 90d | 2026-08-15 | 0 | 0 | 16 | 0 | 4 | 0 |
-| last180d | 2026-05-17 | 1 | 9 | 17 | 2 | 7 | 15 |
-| 360d | 2025-11-18 | 2 | 11 | 21 | 6 | 8 | 20 |
-| last720d | 2024-11-23 | 3 | 20 | 21 | 9 | 11 | 63 |
+| 30d | 2026-10-15 | 0 | 0 | 7 | 0 | 2 | 0 |
+| last60d | 2026-09-15 | 0 | 0 | 11 | 0 | 2 | 0 |
+| 90d | 2026-08-16 | 0 | 0 | 16 | 1 | 4 | 0 |
+| last180d | 2026-05-18 | 1 | 9 | 17 | 3 | 7 | 15 |
+| 360d | 2025-11-19 | 2 | 11 | 21 | 7 | 8 | 20 |
+| last720d | 2024-11-24 | 3 | 20 | 21 | 10 | 11 | 63 |
 
 ## Release assets
 
@@ -102,4 +102,4 @@ Install metadata for jansson lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T06:44:57Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T06:16:48Z._
