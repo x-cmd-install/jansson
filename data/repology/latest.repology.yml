@@ -1,63 +1,13 @@
-- repo: xrepo
+- repo: crux_37
+  subrepo: core
   srcname: jansson
   visiblename: jansson
   version: 2.14.1
   origversion: null
-  status: legacy
-  summary: C library for encoding, decoding and manipulating JSON data
-  licenses:
-    - MIT
-- repo: apertis_v2024
-  subrepo: v2024/target
-  srcname: jansson
-  binnames:
-    - libjansson4
-    - libjansson-dev
-    - libjansson-doc
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-2+apertis0.v2025
   status: outdated
+  summary: C library for encoding, decoding and manipulating JSON data.
   maintainers:
-    - ghedo@debian.org
-- repo: apertis_v2025
-  subrepo: v2025/target
-  srcname: jansson
-  binnames:
-    - libjansson4
-    - libjansson-dev
-    - libjansson-doc
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-2+apertis0.v2025
-  status: outdated
-  maintainers:
-    - ghedo@debian.org
-- repo: apertis_v2026
-  subrepo: v2026/target
-  srcname: jansson
-  binnames:
-    - libjansson4
-    - libjansson-dev
-    - libjansson-doc
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-2+apertis2
-  status: outdated
-  maintainers:
-    - ghedo@debian.org
-- repo: aosc
-  srcname: runtime-common/jansson
-  binname: jansson
-  visiblename: jansson
-  version: "2.14"
-  origversion: null
-  status: outdated
-  summary: C library for encoding, decoding and manipulating JSON data
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - libs
+    - core-ports@crux.nu
 - repo: aerynos
   srcname: jansson
   visiblename: jansson
@@ -495,6 +445,57 @@
     - MIT
   categories:
     - System/Libraries
+- repo: aosc
+  srcname: runtime-common/jansson
+  binname: jansson
+  visiblename: jansson
+  version: "2.14"
+  origversion: null
+  status: outdated
+  summary: C library for encoding, decoding and manipulating JSON data
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - libs
+- repo: apertis_v2024
+  subrepo: v2024/target
+  srcname: jansson
+  binnames:
+    - libjansson4
+    - libjansson-dev
+    - libjansson-doc
+  visiblename: jansson
+  version: "2.14"
+  origversion: 2.14-2+apertis0.v2025
+  status: outdated
+  maintainers:
+    - ghedo@debian.org
+- repo: apertis_v2025
+  subrepo: v2025/target
+  srcname: jansson
+  binnames:
+    - libjansson4
+    - libjansson-dev
+    - libjansson-doc
+  visiblename: jansson
+  version: "2.14"
+  origversion: 2.14-2+apertis0.v2025
+  status: outdated
+  maintainers:
+    - ghedo@debian.org
+- repo: apertis_v2026
+  subrepo: v2026/target
+  srcname: jansson
+  binnames:
+    - libjansson4
+    - libjansson-dev
+    - libjansson-doc
+  visiblename: jansson
+  version: "2.14"
+  origversion: 2.14-2+apertis2
+  status: outdated
+  maintainers:
+    - ghedo@debian.org
 - repo: apertis_v2027
   subrepo: v2027dev1/target
   srcname: jansson
@@ -536,11 +537,11 @@
   binname: lib32-jansson
   visiblename: lib32-jansson
   version: 2.15.1
-  origversion: 2.15.1-1
+  origversion: 2.15.1-2
   status: newest
-  summary: C library for encoding, decoding and manipulating JSON data
+  summary: C library for encoding, decoding and manipulating JSON data (32-bit)
   maintainers:
-    - fallback-mnt-aur@repology
+    - christx@aur
   licenses:
     - MIT
 - repo: artix
@@ -568,6 +569,21 @@
     - MIT
   categories:
     - System Environment/Libraries
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: jansson
+  binnames:
+    - libjansson4
+    - libjansson-dev
+    - libjansson-doc
+  visiblename: jansson
+  version: 2.15.1
+  origversion: 2.15.1-1
+  status: newest
+  maintainers:
+    - florian@debian.org
+  categories:
+    - libs
 - repo: centos_stream_9
   subrepo: BaseOS
   srcname: jansson
@@ -688,16 +704,6 @@
   origversion: null
   status: outdated
 - repo: crux_37
-  subrepo: core
-  srcname: jansson
-  visiblename: jansson
-  version: 2.14.1
-  origversion: null
-  status: outdated
-  summary: C library for encoding, decoding and manipulating JSON data.
-  maintainers:
-    - core-ports@crux.nu
-- repo: crux_37
   subrepo: compat-32
   srcname: jansson-32
   visiblename: jansson-32
@@ -769,21 +775,6 @@
     - MIT AND LicenseRef-Jansson-Public-Domain
   categories:
     - Devel
-- repo: openkylin_3_0
-  subrepo: huanghe/main
-  srcname: jansson
-  binnames:
-    - libjansson4
-    - libjansson-dev
-    - libjansson-doc
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-ok1
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - libs
 - repo: cygwin
   srcname: jansson
   binname: libjansson4
@@ -843,21 +834,12 @@
     - florian@debian.org
   categories:
     - libs
-- repo: debian_unstable
-  subrepo: sid/main
+- repo: pld
   srcname: jansson
-  binnames:
-    - libjansson4
-    - libjansson-dev
-    - libjansson-doc
   visiblename: jansson
   version: 2.15.1
   origversion: 2.15.1-1
   status: newest
-  maintainers:
-    - florian@debian.org
-  categories:
-    - libs
 - repo: deepin_23
   subrepo: main
   srcname: jansson
@@ -888,33 +870,6 @@
     - ghedo@debian.org
   categories:
     - libs
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: jansson
-  binnames:
-    - libjansson4
-    - libjansson-dev
-    - libjansson-doc
-  visiblename: jansson
-  version: 2.15.1
-  origversion: 2.15.1-1
-  status: newest
-  maintainers:
-    - florian@debian.org
-  categories:
-    - libs
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: jansson
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-1.el8
-  status: outdated
-  summary: C library for encoding, decoding and manipulating JSON data
-  licenses:
-    - MIT
-  categories:
-    - System Environment/Libraries
 - repo: eurolinux_9
   subrepo: baseos
   srcname: jansson
@@ -945,36 +900,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - dev-libs
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: jansson
-  binnames:
-    - libjansson-dev
-    - libjansson-doc
-    - libjansson4
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-2
-  status: outdated
-  maintainers:
-    - ghedo@debian.org
-  categories:
-    - libdevel
-- repo: kali_rolling
-  subrepo: main
-  srcname: jansson
-  binnames:
-    - libjansson4
-    - libjansson-dev
-    - libjansson-doc
-  visiblename: jansson
-  version: 2.15.1
-  origversion: 2.15.1-1
-  status: newest
-  maintainers:
-    - florian@debian.org
-  categories:
-    - libs
 - repo: fedora_42
   subrepo: release
   srcname: jansson
@@ -991,6 +916,14 @@
     - MIT AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
+- repo: haikuports_master
+  srcname: dev-libs/jansson
+  visiblename: dev-libs/jansson
+  version: "2.14"
+  origversion: null
+  status: outdated
+  categories:
+    - dev-libs
 - repo: fedora_43
   subrepo: release
   srcname: jansson
@@ -1119,14 +1052,6 @@
   origversion: null
   status: outdated
   summary: JSON C library
-- repo: haikuports_master
-  srcname: dev-libs/jansson
-  visiblename: dev-libs/jansson
-  version: "2.14"
-  origversion: null
-  status: outdated
-  categories:
-    - dev-libs
 - repo: homebrew
   srcname: jansson
   visiblename: jansson
@@ -1134,6 +1059,21 @@
   origversion: null
   status: newest
   summary: C library for encoding, decoding, and manipulating JSON
+- repo: kali_rolling
+  subrepo: main
+  srcname: jansson
+  binnames:
+    - libjansson4
+    - libjansson-dev
+    - libjansson-doc
+  visiblename: jansson
+  version: 2.15.1
+  origversion: 2.15.1-1
+  status: newest
+  maintainers:
+    - florian@debian.org
+  categories:
+    - libs
 - repo: kaos
   subrepo: main
   srcname: jansson
@@ -1147,21 +1087,6 @@
     - demm@kaosx.us
   licenses:
     - MIT
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: jansson
-  binnames:
-    - libjansson4
-    - libjansson-dev
-    - libjansson-doc
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-2
-  status: outdated
-  maintainers:
-    - ghedo@debian.org
-  categories:
-    - libs
 - repo: liguros_stable
   srcname: dev-libs/jansson
   visiblename: dev-libs/jansson
@@ -1262,6 +1187,17 @@
     - MIT
   categories:
     - Development/C
+- repo: openindiana
+  subrepo: hipster
+  srcname: jansson
+  binname: library/jansson
+  visiblename: jansson
+  version: 2.15.0
+  origversion: null
+  status: legacy
+  summary: C library for encoding, decoding and manipulating JSON data
+  categories:
+    - System/Libraries
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: jansson
@@ -1310,21 +1246,6 @@
   summary: C library for encoding, decoding and manipulating JSON data
   licenses:
     - MIT
-- repo: raspbian_stable
-  subrepo: main
-  srcname: jansson
-  binnames:
-    - libjansson4
-    - libjansson-dev
-    - libjansson-doc
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-2
-  status: outdated
-  maintainers:
-    - ghedo@debian.org
-  categories:
-    - libs
 - repo: msys2_clang64
   srcname: mingw-w64-jansson
   binname: mingw-w64-clang-x86_64-jansson
@@ -1436,6 +1357,17 @@
     - getchoo@tuta.io
   licenses:
     - MIT
+- repo: openindiana
+  subrepo: hipster
+  srcname: jansson
+  binname: library/jansson
+  visiblename: jansson
+  version: 2.15.1
+  origversion: null
+  status: newest
+  summary: C library for encoding, decoding and manipulating JSON data
+  categories:
+    - System/Libraries
 - repo: nix_stable_26_05
   srcname: jansson
   visiblename: jansson
@@ -1589,28 +1521,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: openindiana
-  subrepo: hipster
-  srcname: jansson
-  binname: library/jansson
-  visiblename: jansson
-  version: 2.15.0
-  origversion: null
-  status: legacy
-  summary: C library for encoding, decoding and manipulating JSON data
-  categories:
-    - System/Libraries
-- repo: openindiana
-  subrepo: hipster
-  srcname: jansson
-  binname: library/jansson
-  visiblename: jansson
-  version: 2.15.1
-  origversion: null
-  status: newest
-  summary: C library for encoding, decoding and manipulating JSON data
-  categories:
-    - System/Libraries
 - repo: openkylin_2_0
   subrepo: nile/main
   srcname: jansson
@@ -1628,6 +1538,21 @@
     - libs
 - repo: openkylin_2_0
   subrepo: nile-proposed/main
+  srcname: jansson
+  binnames:
+    - libjansson4
+    - libjansson-dev
+    - libjansson-doc
+  visiblename: jansson
+  version: "2.14"
+  origversion: 2.14-ok1
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - libs
+- repo: openkylin_3_0
+  subrepo: huanghe/main
   srcname: jansson
   binnames:
     - libjansson4
@@ -1673,125 +1598,122 @@
     - MIT
   categories:
     - System/Libraries
-- repo: stalix_dev
-  srcname: lib/jansson
-  binname: lib/jansson
-  visiblename: lib/jansson
-  version: 2.15.1
+- repo: openmandriva_6_0
+  subrepo: main/release
+  srcname: jansson
+  binnames:
+    - lib64jansson4
+    - lib64jansson-devel
+    - jansson-debuginfo
+    - jansson-debugsource
+  visiblename: jansson
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  summary: C library for encoding, decoding and manipulating JSON data
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - MIT
+  categories:
+    - Development/C
+- repo: openmandriva_6_0
+  subrepo: main/release
+  srcname: jansson
+  binnames:
+    - lib64jansson4
+    - lib64jansson-devel
+  visiblename: jansson
+  version: "2.14"
+  origversion: 2.14-2
+  status: outdated
+  summary: C library for encoding, decoding and manipulating JSON data
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - MIT
+  categories:
+    - Development/C
+- repo: openmandriva_rolling
+  subrepo: main/release
+  srcname: jansson
+  binnames:
+    - lib64jansson4
+    - lib64jansson-devel
+    - jansson-debuginfo
+    - jansson-debugsource
+  visiblename: jansson
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  summary: C library for encoding, decoding and manipulating JSON data
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - MIT
+  categories:
+    - Development/C
+- repo: openmandriva_rolling
+  subrepo: main/release
+  srcname: jansson
+  binnames:
+    - lib64jansson4
+    - lib64jansson-devel
+  visiblename: jansson
+  version: "2.14"
+  origversion: 2.14-2
+  status: outdated
+  summary: C library for encoding, decoding and manipulating JSON data
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - MIT
+  categories:
+    - Development/C
+- repo: openmandriva_cooker
+  subrepo: main/release
+  srcname: jansson
+  binnames:
+    - lib64jansson4
+    - lib64jansson-devel
+    - jansson-debuginfo
+    - jansson-debugsource
+  visiblename: jansson
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  summary: C library for encoding, decoding and manipulating JSON data
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - MIT
+  categories:
+    - Development/C
+- repo: openmandriva_cooker
+  subrepo: main/release
+  srcname: jansson
+  binnames:
+    - lib64jansson4
+    - lib64jansson-devel
+  visiblename: jansson
+  version: "2.14"
+  origversion: 2.14-2
+  status: outdated
+  summary: C library for encoding, decoding and manipulating JSON data
+  maintainers:
+    - bero+massbuild@lindev.ch
+  licenses:
+    - MIT
+  categories:
+    - Development/C
+- repo: ptxdist
+  srcname: jansson
+  visiblename: jansson
+  version: 2.14.1
   origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - lib
-- repo: openmandriva_6_0
-  subrepo: main/release
-  srcname: jansson
-  binnames:
-    - lib64jansson4
-    - lib64jansson-devel
-    - jansson-debuginfo
-    - jansson-debugsource
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-1
   status: outdated
-  summary: C library for encoding, decoding and manipulating JSON data
-  maintainers:
-    - bero+massbuild@lindev.ch
   licenses:
-    - MIT
-  categories:
-    - Development/C
-- repo: openmandriva_6_0
-  subrepo: main/release
-  srcname: jansson
-  binnames:
-    - lib64jansson4
-    - lib64jansson-devel
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-2
-  status: outdated
-  summary: C library for encoding, decoding and manipulating JSON data
-  maintainers:
-    - bero+massbuild@lindev.ch
-  licenses:
-    - MIT
-  categories:
-    - Development/C
-- repo: openmandriva_rolling
-  subrepo: main/release
-  srcname: jansson
-  binnames:
-    - lib64jansson4
-    - lib64jansson-devel
-    - jansson-debuginfo
-    - jansson-debugsource
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-1
-  status: outdated
-  summary: C library for encoding, decoding and manipulating JSON data
-  maintainers:
-    - bero+massbuild@lindev.ch
-  licenses:
-    - MIT
-  categories:
-    - Development/C
-- repo: openmandriva_rolling
-  subrepo: main/release
-  srcname: jansson
-  binnames:
-    - lib64jansson4
-    - lib64jansson-devel
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-2
-  status: outdated
-  summary: C library for encoding, decoding and manipulating JSON data
-  maintainers:
-    - bero+massbuild@lindev.ch
-  licenses:
-    - MIT
-  categories:
-    - Development/C
-- repo: openmandriva_cooker
-  subrepo: main/release
-  srcname: jansson
-  binnames:
-    - lib64jansson4
-    - lib64jansson-devel
-    - jansson-debuginfo
-    - jansson-debugsource
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-1
-  status: outdated
-  summary: C library for encoding, decoding and manipulating JSON data
-  maintainers:
-    - bero+massbuild@lindev.ch
-  licenses:
-    - MIT
-  categories:
-    - Development/C
-- repo: openmandriva_cooker
-  subrepo: main/release
-  srcname: jansson
-  binnames:
-    - lib64jansson4
-    - lib64jansson-devel
-  visiblename: jansson
-  version: "2.14"
-  origversion: 2.14-2
-  status: outdated
-  summary: C library for encoding, decoding and manipulating JSON data
-  maintainers:
-    - bero+massbuild@lindev.ch
-  licenses:
-    - MIT
-  categories:
-    - Development/C
+    - MIT AND dtoa
 - repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: libjansson
@@ -1828,21 +1750,6 @@
     - MIT
   categories:
     - Development/Libraries/C and C++
-- repo: raspbian_testing
-  subrepo: main
-  srcname: jansson
-  binnames:
-    - libjansson4
-    - libjansson-dev
-    - libjansson-doc
-  visiblename: jansson
-  version: 2.15.1
-  origversion: 2.15.1-1
-  status: newest
-  maintainers:
-    - florian@debian.org
-  categories:
-    - libs
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: libjansson
@@ -1975,20 +1882,66 @@
     - pkgsrc-users@netbsd.org
   categories:
     - textproc
-- repo: pld
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: jansson
+  binnames:
+    - libjansson-dev
+    - libjansson-doc
+    - libjansson4
+  visiblename: jansson
+  version: "2.14"
+  origversion: 2.14-2
+  status: outdated
+  maintainers:
+    - ghedo@debian.org
+  categories:
+    - libdevel
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: jansson
+  binnames:
+    - libjansson4
+    - libjansson-dev
+    - libjansson-doc
+  visiblename: jansson
+  version: "2.14"
+  origversion: 2.14-2
+  status: outdated
+  maintainers:
+    - ghedo@debian.org
+  categories:
+    - libs
+- repo: raspbian_stable
+  subrepo: main
+  srcname: jansson
+  binnames:
+    - libjansson4
+    - libjansson-dev
+    - libjansson-doc
+  visiblename: jansson
+  version: "2.14"
+  origversion: 2.14-2
+  status: outdated
+  maintainers:
+    - ghedo@debian.org
+  categories:
+    - libs
+- repo: raspbian_testing
+  subrepo: main
+  srcname: jansson
+  binnames:
+    - libjansson4
+    - libjansson-dev
+    - libjansson-doc
   visiblename: jansson
   version: 2.15.1
   origversion: 2.15.1-1
   status: newest
-- repo: ptxdist
-  srcname: jansson
-  visiblename: jansson
-  version: 2.14.1
-  origversion: null
-  status: outdated
-  licenses:
-    - MIT AND dtoa
+  maintainers:
+    - florian@debian.org
+  categories:
+    - libs
 - repo: ravenports
   srcname: jansson
   binname: jansson
@@ -2230,6 +2183,17 @@
     - anton@samokhvalov.xyz
   categories:
     - lib
+- repo: stalix_dev
+  srcname: lib/jansson
+  binname: lib/jansson
+  visiblename: lib/jansson
+  version: 2.15.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
 - repo: starkos
   subrepo: main
   srcname: jansson
@@ -2429,6 +2393,15 @@
 - repo: xrepo
   srcname: jansson
   visiblename: jansson
+  version: 2.14.1
+  origversion: null
+  status: legacy
+  summary: C library for encoding, decoding and manipulating JSON data
+  licenses:
+    - MIT
+- repo: xrepo
+  srcname: jansson
+  visiblename: jansson
   version: 2.15.0
   origversion: null
   status: legacy
@@ -2444,24 +2417,56 @@
   summary: C library for encoding, decoding and manipulating JSON data
   licenses:
     - MIT
-- repo: amazon_2
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: jansson
+  binnames:
+    - libjansson4
+    - libjansson-dev
+    - libjansson-doc
+  visiblename: jansson
+  version: 2.15.1
+  origversion: 2.15.1-1
+  status: newest
+  maintainers:
+    - florian@debian.org
+  categories:
+    - libs
+- repo: eurolinux_8
+  subrepo: baseos
   srcname: jansson
   visiblename: jansson
-  version: "2.10"
-  origversion: 2.10-1.amzn2.0.2
+  version: "2.14"
+  origversion: 2.14-1.el8
   status: outdated
   summary: C library for encoding, decoding and manipulating JSON data
   licenses:
     - MIT
   categories:
     - System Environment/Libraries
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: jansson
+  binnames:
+    - libjansson4
+    - libjansson-dev
+    - libjansson-doc
+  visiblename: jansson
+  version: 2.13.1
+  origversion: 2.13.1-1.1
+  status: outdated
+  maintainers:
+    - ghedo@debian.org
+  categories:
+    - libs
   vulnerable: true
-- repo: amazon_2
+- repo: eurolinux_8
+  subrepo: baseos
   srcname: jansson
   visiblename: jansson
-  version: "2.10"
-  origversion: 2.10-1.amzn2
-  status: outdated
+  version: "2.11"
+  origversion: 2.11-3.el8
+  status: legacy
   summary: C library for encoding, decoding and manipulating JSON data
   licenses:
     - MIT
@@ -2517,16 +2522,16 @@
   origversion: 2.12-1
   status: outdated
   vulnerable: true
-- repo: apertis_v2023
-  subrepo: v2023/target
+- repo: deepin_unstable
+  subrepo: main
   srcname: jansson
   binnames:
     - libjansson4
     - libjansson-dev
     - libjansson-doc
   visiblename: jansson
-  version: 2.13.1
-  origversion: 2.13.1-1.1+apertis1
+  version: "2.12"
+  origversion: 2.12-1
   status: outdated
   maintainers:
     - ghedo@debian.org
@@ -2543,6 +2548,44 @@
     - MIT
   categories:
     - System Environment/Libraries
+  vulnerable: true
+- repo: amazon_2
+  srcname: jansson
+  visiblename: jansson
+  version: "2.10"
+  origversion: 2.10-1.amzn2.0.2
+  status: outdated
+  summary: C library for encoding, decoding and manipulating JSON data
+  licenses:
+    - MIT
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: amazon_2
+  srcname: jansson
+  visiblename: jansson
+  version: "2.10"
+  origversion: 2.10-1.amzn2
+  status: outdated
+  summary: C library for encoding, decoding and manipulating JSON data
+  licenses:
+    - MIT
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: apertis_v2023
+  subrepo: v2023/target
+  srcname: jansson
+  binnames:
+    - libjansson4
+    - libjansson-dev
+    - libjansson-doc
+  visiblename: jansson
+  version: 2.13.1
+  origversion: 2.13.1-1.1+apertis1
+  status: outdated
+  maintainers:
+    - ghedo@debian.org
   vulnerable: true
 - repo: centos_7
   subrepo: os
@@ -2637,49 +2680,6 @@
     - ghedo@debian.org
   categories:
     - libs
-  vulnerable: true
-- repo: deepin_unstable
-  subrepo: main
-  srcname: jansson
-  binnames:
-    - libjansson4
-    - libjansson-dev
-    - libjansson-doc
-  visiblename: jansson
-  version: "2.12"
-  origversion: 2.12-1
-  status: outdated
-  maintainers:
-    - ghedo@debian.org
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: jansson
-  binnames:
-    - libjansson4
-    - libjansson-dev
-    - libjansson-doc
-  visiblename: jansson
-  version: 2.13.1
-  origversion: 2.13.1-1.1
-  status: outdated
-  maintainers:
-    - ghedo@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: jansson
-  visiblename: jansson
-  version: "2.11"
-  origversion: 2.11-3.el8
-  status: legacy
-  summary: C library for encoding, decoding and manipulating JSON data
-  licenses:
-    - MIT
-  categories:
-    - System Environment/Libraries
   vulnerable: true
 - repo: fedora_39
   subrepo: release
@@ -2860,6 +2860,22 @@
   categories:
     - Development/C
   vulnerable: true
+- repo: openkylin_1_0
+  subrepo: yangtze/main
+  srcname: jansson
+  binnames:
+    - libjansson4
+    - libjansson-dev
+    - libjansson-doc
+  visiblename: jansson
+  version: "2.12"
+  origversion: 2.12-ok1
+  status: outdated
+  maintainers:
+    - ghedo@debian.org
+  categories:
+    - libs
+  vulnerable: true
 - repo: openeuler_20_03_lts_sp3
   srcname: jansson
   visiblename: jansson
@@ -2883,22 +2899,6 @@
     - MIT
   categories:
     - Unspecified
-  vulnerable: true
-- repo: openkylin_1_0
-  subrepo: yangtze/main
-  srcname: jansson
-  binnames:
-    - libjansson4
-    - libjansson-dev
-    - libjansson-doc
-  visiblename: jansson
-  version: "2.12"
-  origversion: 2.12-ok1
-  status: outdated
-  maintainers:
-    - ghedo@debian.org
-  categories:
-    - libs
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: main/oss
