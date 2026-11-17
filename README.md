@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,379 · **Forks**: 862 · **Open issues**: 418 · **Contributors**: 88
+- **Stars**: 3,379 · **Forks**: 861 · **Open issues**: 418 · **Contributors**: 88
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 6 | 0 | 2 | 0 |
-| last60d | 2026-09-17 | 0 | 0 | 11 | 0 | 2 | 0 |
-| 90d | 2026-08-18 | 0 | 0 | 16 | 1 | 4 | 0 |
-| last180d | 2026-05-20 | 1 | 9 | 17 | 3 | 7 | 15 |
-| 360d | 2025-11-21 | 2 | 11 | 21 | 7 | 8 | 20 |
-| last720d | 2024-11-26 | 3 | 20 | 21 | 10 | 11 | 63 |
+| 30d | 2026-10-18 | 0 | 0 | 5 | 0 | 2 | 0 |
+| last60d | 2026-09-18 | 0 | 0 | 11 | 0 | 2 | 0 |
+| 90d | 2026-08-19 | 0 | 0 | 16 | 1 | 4 | 0 |
+| last180d | 2026-05-21 | 1 | 9 | 17 | 3 | 7 | 15 |
+| 360d | 2025-11-22 | 2 | 11 | 21 | 7 | 8 | 20 |
+| last720d | 2024-11-27 | 3 | 20 | 21 | 10 | 11 | 63 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **231** distros on [repology.org](https://repology.org/project/jansson). **67** are ✅ on the latest upstream release, **148** are ⚠️ on an older version.
+Reported by **233** distros on [repology.org](https://repology.org/project/jansson). **67** are ✅ on the latest upstream release, **150** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -102,4 +102,4 @@ Install metadata for jansson lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T06:34:05Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T09:00:55Z._
