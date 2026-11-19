@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,379 · **Forks**: 861 · **Open issues**: 418 · **Contributors**: 88
+- **Stars**: 3,379 · **Forks**: 862 · **Open issues**: 418 · **Contributors**: 88
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 183 · **Open PRs**: 63 · **Closed issues**: 335 · **Open issues**: 83 · **Commits**: 1140
+- **Releases**: 34 · **Merged PRs**: 183 · **Open PRs**: 64 · **Closed issues**: 335 · **Open issues**: 83 · **Commits**: 1140
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 5 | 0 | 2 | 0 |
-| last60d | 2026-09-18 | 0 | 0 | 11 | 0 | 2 | 0 |
-| 90d | 2026-08-19 | 0 | 0 | 16 | 1 | 4 | 0 |
-| last180d | 2026-05-21 | 1 | 9 | 17 | 3 | 7 | 15 |
-| 360d | 2025-11-22 | 2 | 11 | 21 | 7 | 8 | 20 |
-| last720d | 2024-11-27 | 3 | 20 | 21 | 10 | 11 | 63 |
+| 30d | 2026-10-20 | 0 | 0 | 6 | 0 | 2 | 0 |
+| last60d | 2026-09-20 | 0 | 0 | 12 | 0 | 2 | 0 |
+| 90d | 2026-08-21 | 0 | 0 | 17 | 1 | 4 | 0 |
+| last180d | 2026-05-23 | 1 | 9 | 18 | 3 | 7 | 15 |
+| 360d | 2025-11-24 | 2 | 11 | 22 | 7 | 8 | 20 |
+| last720d | 2024-11-29 | 3 | 20 | 22 | 10 | 11 | 63 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **233** distros on [repology.org](https://repology.org/project/jansson). **67** are ✅ on the latest upstream release, **150** are ⚠️ on an older version.
+Reported by **232** distros on [repology.org](https://repology.org/project/jansson). **67** are ✅ on the latest upstream release, **149** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -102,4 +102,4 @@ Install metadata for jansson lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T09:00:55Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T07:42:16Z._
