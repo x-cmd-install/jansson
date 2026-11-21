@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 5 | 0 | 1 | 0 |
-| last60d | 2026-09-21 | 0 | 0 | 12 | 0 | 2 | 0 |
-| 90d | 2026-08-22 | 0 | 0 | 17 | 1 | 4 | 0 |
-| last180d | 2026-05-24 | 1 | 9 | 18 | 3 | 7 | 15 |
-| 360d | 2025-11-25 | 2 | 11 | 22 | 7 | 8 | 20 |
-| last720d | 2024-11-30 | 3 | 20 | 22 | 10 | 11 | 63 |
+| 30d | 2026-10-22 | 0 | 0 | 5 | 0 | 1 | 0 |
+| last60d | 2026-09-22 | 0 | 0 | 12 | 0 | 2 | 0 |
+| 90d | 2026-08-23 | 0 | 0 | 17 | 1 | 4 | 0 |
+| last180d | 2026-05-25 | 1 | 9 | 18 | 3 | 7 | 15 |
+| 360d | 2025-11-26 | 2 | 11 | 22 | 7 | 8 | 20 |
+| last720d | 2024-12-01 | 3 | 20 | 22 | 10 | 11 | 63 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **232** distros on [repology.org](https://repology.org/project/jansson). **67** are ✅ on the latest upstream release, **149** are ⚠️ on an older version.
+Reported by **231** distros on [repology.org](https://repology.org/project/jansson). **67** are ✅ on the latest upstream release, **148** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -102,4 +102,4 @@ Install metadata for jansson lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T08:35:24Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:15:12Z._
