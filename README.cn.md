@@ -14,25 +14,25 @@ x install jansson
 
 ## 代码洞察
 
-合计: **18,271** 行代码（覆盖前 5 种语言、共 **72** 个文件）。
+合计: **18,306** 行代码（覆盖前 5 种语言、共 **72** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 13,666 | 1,049 | 2,229 | 36 |
+| C | 13,700 | 1,049 | 2,232 | 36 |
 | ReStructuredText | 2,141 | 0 | 922 | 10 |
 | CHeader | 770 | 360 | 176 | 9 |
-| CMake | 670 | 455 | 184 | 6 |
+| CMake | 671 | 455 | 184 | 6 |
 | Sh | 327 | 71 | 87 | 11 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.9 / 10**
+总评分: **6.5 / 10**
 
 评分最低的几项:
 
-- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Branch-Protection** (0/10) — branch protection not enabled on development/release branches
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install jansson
 ## 发布
 
 - **最新版本**: `v2.15.1` (2026-07-01)
-- **最近提交**: 2026-07-09
+- **最近提交**: 2026-11-23
 - **Release 含资产**: 4 个
 
 ## 流行度
 
-- **Star**: 3,379 · **Fork**: 865 · **开放 issue**: 418 · **贡献者**: 88
+- **Star**: 3,380 · **Fork**: 865 · **开放 issue**: 418 · **贡献者**: 89
 
 ## 累计统计
 
-- **发布数**: 34 · **已合并 PR**: 183 · **开放 PR**: 64 · **已关闭 issue**: 335 · **开放 issue**: 83 · **提交数**: 1140
+- **发布数**: 34 · **已合并 PR**: 185 · **开放 PR**: 63 · **已关闭 issue**: 335 · **开放 issue**: 83 · **提交数**: 1148
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 5 | 0 | 1 | 0 |
-| last60d | 2026-09-24 | 0 | 0 | 12 | 0 | 2 | 0 |
-| 90d | 2026-08-25 | 0 | 0 | 17 | 1 | 3 | 0 |
-| last180d | 2026-05-27 | 1 | 9 | 18 | 3 | 7 | 14 |
-| 360d | 2025-11-28 | 2 | 11 | 22 | 7 | 8 | 20 |
-| last720d | 2024-12-03 | 3 | 20 | 22 | 10 | 11 | 63 |
+| 30d | 2026-10-25 | 0 | 2 | 4 | 0 | 1 | 6 |
+| last60d | 2026-09-25 | 0 | 2 | 11 | 0 | 2 | 6 |
+| 90d | 2026-08-26 | 0 | 2 | 16 | 1 | 3 | 6 |
+| last180d | 2026-05-28 | 1 | 11 | 17 | 3 | 7 | 20 |
+| 360d | 2025-11-29 | 2 | 13 | 21 | 7 | 8 | 26 |
+| last720d | 2024-12-04 | 3 | 22 | 21 | 10 | 11 | 71 |
 
 ## Release 资产
 
@@ -102,4 +102,4 @@ jansson 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T09:23:20Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T09:56:59Z._

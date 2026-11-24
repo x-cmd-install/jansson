@@ -14,25 +14,25 @@ x install jansson
 
 ## Code insight
 
-Total: **18,271** lines of code across **72** files in the top 5 languages.
+Total: **18,306** lines of code across **72** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 13,666 | 1,049 | 2,229 | 36 |
+| C | 13,700 | 1,049 | 2,232 | 36 |
 | ReStructuredText | 2,141 | 0 | 922 | 10 |
 | CHeader | 770 | 360 | 176 | 9 |
-| CMake | 670 | 455 | 184 | 6 |
+| CMake | 671 | 455 | 184 | 6 |
 | Sh | 327 | 71 | 87 | 11 |
 
 ## OpenSSF Scorecard
 
-Overall score: **5.9 / 10**
+Overall score: **6.5 / 10**
 
 Lowest-scoring checks:
 
-- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Branch-Protection** (0/10) — branch protection not enabled on development/release branches
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.15.1` (2026-07-01)
-- **Last commit**: 2026-07-09
+- **Last commit**: 2026-11-23
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 3,379 · **Forks**: 865 · **Open issues**: 418 · **Contributors**: 88
+- **Stars**: 3,380 · **Forks**: 865 · **Open issues**: 418 · **Contributors**: 89
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 183 · **Open PRs**: 64 · **Closed issues**: 335 · **Open issues**: 83 · **Commits**: 1140
+- **Releases**: 34 · **Merged PRs**: 185 · **Open PRs**: 63 · **Closed issues**: 335 · **Open issues**: 83 · **Commits**: 1148
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 5 | 0 | 1 | 0 |
-| last60d | 2026-09-24 | 0 | 0 | 12 | 0 | 2 | 0 |
-| 90d | 2026-08-25 | 0 | 0 | 17 | 1 | 3 | 0 |
-| last180d | 2026-05-27 | 1 | 9 | 18 | 3 | 7 | 14 |
-| 360d | 2025-11-28 | 2 | 11 | 22 | 7 | 8 | 20 |
-| last720d | 2024-12-03 | 3 | 20 | 22 | 10 | 11 | 63 |
+| 30d | 2026-10-25 | 0 | 2 | 4 | 0 | 1 | 6 |
+| last60d | 2026-09-25 | 0 | 2 | 11 | 0 | 2 | 6 |
+| 90d | 2026-08-26 | 0 | 2 | 16 | 1 | 3 | 6 |
+| last180d | 2026-05-28 | 1 | 11 | 17 | 3 | 7 | 20 |
+| 360d | 2025-11-29 | 2 | 13 | 21 | 7 | 8 | 26 |
+| last720d | 2024-12-04 | 3 | 22 | 21 | 10 | 11 | 71 |
 
 ## Release assets
 
@@ -102,4 +102,4 @@ Install metadata for jansson lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T09:23:19Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T09:56:58Z._
